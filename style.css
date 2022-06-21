@@ -109,14 +109,16 @@ button:hover{
 /*pagina de apresentação*/
 
 .img-slider{
-    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     width: 1200px;
     height: 800px;
-    margin: 10px;
     background: #1B1919;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
   
   .img-slider .slide{
@@ -124,6 +126,9 @@ button:hover{
     position: absolute;
     width: 100%;
     clip-path: circle(0% at 0 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   
   .img-slider .slide.active{
@@ -272,7 +277,7 @@ button:hover{
   /*Card de compras*/
 
   .cardslider {
-    background-color: var(--bg);
+    background-color: #222020;
     padding: 1rem;
 
     display: grid;
@@ -287,7 +292,7 @@ button:hover{
     position: relative;
     width: 17rem;
     height: 23rem;
-    background-color:var(--primary);
+    background-color:#18253c;
     color: #fff;
     border-radius: 1rem;
     border: .1rem solid transparent;
@@ -297,14 +302,14 @@ button:hover{
 }
 
 .card:hover {
-    border: .1rem solid var(--secondary);
+    border: .1rem solid #ff6d38;
     transform: scale(1.05);
 }
 
 .card::before, .card::after {
     position: absolute;
     content: "";
-    background-color: var(--secondary);
+    background-color: #ff6d38;
     border-radius: 50%;
     transition: .5s ease-in-out;
     z-index: 100;
@@ -400,19 +405,19 @@ button:hover{
 }
 
 .bton {
-    padding: 1rem 2rem;
-    background-color: unset;
     border: none;
     outline: none;
     border-radius: 2rem;
     color: #fff;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .btn-success {
-    background-color: var(--secondary);
+    background-color: #ff6d38;
+    
 }
 
 .btn-border {
-    border: .1rem solid var(--secondary);
+    border: .1rem solid #ff6d38;
 }
