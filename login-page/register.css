@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',  sans-serif;
+}
+
+body{
+    background-color: #1B1919;
+}
+
+/* navbar */
+
+header{
+    background-color:#1B1919;
+    display: flex;
+    max-height: 8vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #E0B6A3;
+}
+body{
+    background-color: #1B1919;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+    opacity: 0.8;
+    margin-right: 30px;
+}
+
+#logo:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.7s;
+}
+
+#cart{
+    width: 35px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+#cart:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.7s;
+}
+
+
+.menubar li, .menuitem{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    align-items: center;
+}
+
+li:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.7s;
+}
+
+a:hover{
+    color: #ff7f50;
+    transition: 0.7s;
+}
+
+#search{
+    height: 30px;
+    background-image: url(img/search.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+ button, #button{
+    text-decoration: none;
+    color: #1B1919;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.7s;
+    background-color: coral;
+    color: white;
+}
+
+#menuright{
+    display: flex;
+    align-items: center;
+}
+
+
+/*Registro*/
+
+.cotainer-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.data-register{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 6px 5px 10px 0;
+    height: 500px;
+    width: 450px;
+}
+
+.data-register h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.data-register input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.terms{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.terms input{
+    cursor: pointer;
+}
+
+.terms a{
+    color: #E0B6A3;
+}
+
+.btn-register{
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-register:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: 0.7s;
+    background-color: coral;
+    color: white;
+}

@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="register.css">
     <link rel="shortcut icon" href="logimg/favicon.ico" type="image/x-icon">
     <title>Hoopers</title>
 </head>
+
 <body>
     <header>
         <nav id="navbar">
@@ -26,32 +27,29 @@
         
         <div id="menuright">
         <img src="logimg/carrinho-carrinho.png" alt="shopping cart" id="cart">
+        <button> <a href="login.html" id="button">Fazer login</a></button>
         </div>
     </header>
 
     <main>
-        <section class="card-login">
+        <section class="cotainer-register">
+            <form class="data-register">
+                <h2>Registrar</h2>
 
-            <div class="container-login">
-                <h2>Login</h2>
-                <form class="data-area">
-                    <input type="text" name="email" id="email-login" placeholder="E-mail/Nome de Usuário">
-                    <input type="password" name="senha" id="pass" placeholder="senha">
-                </form>
-                <div class="data-save">
-                    <input type="checkbox" id="save"><p >Lembre-se de mim</p>
+                <input type="text" id="email" placeholder="E-mail">
+                <input type="text" id="nomeUsuario" placeholder="Nome de Usuário">
+                <input type="password" id="senhaRegister" placeholder="Senha(Min. 8 carac.)">
+                <input type="password" id="comfirmerRegister" placeholder="Confirmar senha">
+
+                <div class="terms">
+                    <input type="checkbox" name="termos" id="termos"><p>Aceitar os <a href=""> Termos e Regras de uso.</a></p>
                 </div>
 
-                <div class="login-register">
-                    <button class="button-login">Entrar</button>
-
-                    <p>Não possui conta?? crie uma agora: <a href="register.html">Registre-se.</a></p>
-                </div>
-            </div>
-                
+                <button class="btn-register">Registrar</button>
+            </form>
         </section>
-        
     </main>
+
     
 </body>
 </html>
