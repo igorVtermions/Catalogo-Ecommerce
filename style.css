@@ -196,7 +196,7 @@ button:hover{
     background-color: #222020;
     padding: 10rem;
     padding-top: 3rem;
-    padding-left: 0;
+    padding-left: 8rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
